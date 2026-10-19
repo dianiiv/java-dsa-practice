@@ -1,0 +1,19 @@
+
+        public class AgeChecker {
+            public static void main(String[] args) {
+
+                int age = 12;
+
+                if (age < 13) {
+                    System.out.println("You are a child.");
+                } else if (age >= 13 && age <=17 ){
+                    System.out.println("You are a teenager.");
+                } else if (age >= 18){
+                    System.out.println("You are an adult");
+                }
+
+            }
+
+        }
+
+
