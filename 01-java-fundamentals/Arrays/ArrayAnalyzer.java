@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class ArrayAnalyzer {
     public static void main(String[] args) {
         int[] numbers = {12, 5, 27, 8, 16};
@@ -19,7 +20,7 @@ public class ArrayAnalyzer {
         }
         average = (double) sum / numbers.length;
 
-        System.out.println("Array: " + java.util.Arrays.toString(numbers));
+        System.out.println("Array: " + Arrays.toString(numbers));
         System.out.println("The maximum number is: " + max);
         System.out.println("The minimum number is: " + min);
         System.out.println("The sum of all numbers in arrays: " + sum);
