@@ -15,7 +15,7 @@ A personal learning repository for practicing Java fundamentals, data structures
 
 | Program | Description |
 |---|---|
-| `Variables` | Practice with variables and data types |
+| `GuessGame` | Practice with variables and data types |
 | `AgeChecker` | Practice with conditionals and comparison operators |
 | `GradeChecker` | Assign a letter grade based on a score |
 | `NumberGuessingGame` | Practice with loops, conditionals, and random numbers |

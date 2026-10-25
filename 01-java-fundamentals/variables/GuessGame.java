@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 //import static com.sun.beans.introspect.PropertyInfo.Name.bound;
 
-public class Variables {
+public class GuessGame {
 
     static void main(String[] args) {
 
@@ -14,8 +14,8 @@ public class Variables {
         int secondNumber = randomGenerator.nextInt(8) + 2;
 
         var subtraction = randomGenerator.nextInt(8) + 2;
-        int answer;
-        String prompt = " . Don't type in the answer. Just press ENTER when you're ready to continue";
+        int answer = firstNumber * secondNumber - subtraction;;
+        String prompt = ". Don't type in the answer. Just press ENTER when you're ready to continue";
 
         System.out.println("Think of a number between 1 and 10" + prompt);
         scanner.nextLine();
@@ -28,7 +28,7 @@ public class Variables {
         System.out.println("Now subtract " + subtraction + prompt);
         scanner.nextLine();
 
-        answer = firstNumber * secondNumber - subtraction;
+
         System.out.println("The answer is " + answer);
 
         scanner.close();
