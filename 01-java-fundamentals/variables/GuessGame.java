@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class GuessGame {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
         Random randomGenerator = new Random();
