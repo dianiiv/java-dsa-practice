@@ -13,6 +13,7 @@ public class SimpleMenu {
         System.out.println("6 - Espresso");
         System.out.println("7 - Quit the program");
 
+
         String userChoice = scanner.nextLine();
         System.out.println("You chose " + userChoice);
 
